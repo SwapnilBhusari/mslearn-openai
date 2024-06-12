@@ -1,0 +1,46 @@
+PS C:\Users\Student\Documents\mslearn-openai\Labfiles\02-azure-openai-api\Python> python .\test-openai-model.py
+Enter the prompt (or type 'quit' to exit): Where is a good hike near Boise?
+
+Sending request for summary to Azure OpenAI endpoint...
+
+
+Response: A great hike near Boise is the Table Rock Trail. It is a 4.4-mile roundtrip hike with stunning views of the city and the Boise River. 
+            An interesting fact about the area is that Table Rock is a popular spot for birdwatching, with over 100 species of birds being spotted there.
+
+Another hike near Boise is the Hulls Gulch Interpretive Trail. It is a 6-mile loop that offers beautiful views of the foothills and the Boise River.
+            An interesting fact about the area is that you might spot mule deer along the trail, as they are commonly seen in the Hulls Gulch area.
+
+If you're looking for a shorter hike, you can try the Camel's Back Trail. It is a 2.5-mile loop that provides panoramic views of downtown Boise and the surrounding mountains.
+            An interesting fact about the area is that Camel's Back Park was named after a camel that was used in the military's Camel Corps experiment in the 19th century.
+
+Enter the prompt (or type 'quit' to exit): How difficult is the second hike you suggested?
+
+Sending request for summary to Azure OpenAI endpoint...
+
+
+Response: The difficulty of the second hike I suggested near Rainier National Park can vary depending on your fitness level and hiking experience. However, on average, it is considered a moderate hike. It involves some elevation gain and may have uneven terrain, but it is not overly strenuous. It is always a good idea to check the specific trail conditions and difficulty ratings before embarking on any hike.
+
+
+After history changes--------------------------
+
+
+PS C:\Users\Student\Documents\mslearn-openai\Labfiles\02-azure-openai-api\Python> python .\test-openai-model.py
+Enter the prompt (or type 'quit' to exit): Where is a good hike near Boise?
+
+Sending request for summary to Azure OpenAI endpoint...
+
+
+Summary: A great hike near Boise is the Table Rock Trail. It is a 3.7-mile round trip hike that offers stunning views of the city and the Boise River. Fun fact: Table Rock is a popular nesting site for peregrine falcons, which are known for their incredible speed and agility.
+
+Another option is the Hulls Gulch Nature Trail. This 7.1-mile loop trail is located in the Boise Foothills and provides a peaceful escape from the city. Look out for various bird species along the way, as the area is a birdwatcher's paradise.
+
+For a shorter option, check out the Boise River Greenbelt. This paved pathway stretches for 25 miles, offering a scenic route along the river. Keep an eye out for beavers, as they are known to inhabit the area and build dams along the riverbanks.
+
+Enter the prompt (or type 'quit' to exit): How difficult is the second hike you suggested?
+
+Sending request for summary to Azure OpenAI endpoint...
+
+
+Summary: The Hulls Gulch Nature Trail is considered a moderate difficulty hike. While it is a longer trail at 7.1 miles, the terrain is relatively gentle and there is not a significant amount of elevation gain. It's a great option for hikers looking for a longer and more challenging hike without too much technical difficulty. Just make sure to come prepared with proper footwear and plenty of water for this enjoyable adventure in the Boise Foothills!
+
+Enter the prompt (or type 'quit' to exit): quit
